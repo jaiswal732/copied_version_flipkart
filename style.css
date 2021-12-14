@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+        background-color: aliceblue;
+    }
+
+    
+    
+
+
+    
+    nav ul{
+        list-style: none;
+    }
+nav ul{
+    display: flex;
+    flex-direction: row;
+    background-color:#2455f4;
+    height: 67px;
+    align-items: center;
+
+}
+ ul li img{
+    margin: 0 6px 0 186px;
+    height: 28px;
+}
+input{
+    width: 518px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+#login{
+    margin: 0 0 0 80px;
+    background: #2455f4;
+    border: 1px solid #2455f4;
+    color: white;
+    width: 86px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+#more{
+    margin: 0 0 0 40px;
+    background: #2455f4;
+    border: 1px solid #2455f4;
+    color: white;
+    width: 86px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif; 
+}
+.cart{
+    margin: 0 0 0 84px;
+    color: white;
+    font-size: large;
+    font-style: normal;
+}
+.item ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+    list-style: none;
+    align-items: center;
+}
+.sale{
+    border: 1px solid white;
+}
+.first{
+    margin: 0 0 0 60px;
+}
+.last{
+    margin: 0 60px 0 0;
+}
+.slider{
+    height: 250px;
+    overflow: hidden;
+    margin: 10px 23px;
+}
+.box1{
+    background-color: white;
+    margin: 10px 23px;
+}
+.top{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
+}
+h2{
+    margin: 0 0 0 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+.view{
+    background-color: #2455f4;
+    color: white;
+    padding: 8px 30px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15px 0 0;
+    
+
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+}
+.content{
+    height: 175px;
+    width: 180px;
+    overflow: hidden;
+}
+.content img{
+    height: 100%;
+    width: 100%;
+}
+.bottom{
+    display:flex ;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 90px;
+}
+.contentp{
+    height: 75px;
+    width: 180px;
+    /* background-color:rgb(224, 189, 193); */
+    text-align: center;
+    line-height: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+footer{
+    display: flex;
+    background-color:black;
+    height: 50px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
